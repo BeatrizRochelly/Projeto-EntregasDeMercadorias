@@ -1,13 +1,12 @@
 package com.algaworks.algalog.domain.model;
 
 public class Cliente {
+
 	
 	private Long id;
 	private String nome;
 	private String email;
 	private String telefone;
-	
-	//Irei utilizar Lombok//
 	public Long getId() {
 		return id;
 	}
@@ -33,6 +32,4 @@ public class Cliente {
 		this.telefone = telefone;
 	}
 	
-	
-
 }
